@@ -1,0 +1,17 @@
+tide:
+  queries:
+  - labels:
+    - approved
+    - lgtm
+    missingLabels:
+    - backports/unvalidated-commits
+    - do-not-merge/hold
+    - do-not-merge/invalid-owners-file
+    - do-not-merge/work-in-progress
+    - jira/invalid-bug
+    - needs-rebase
+    orgs:
+    - janus-idp
+    - janus-idp
+    repos:
+    - ' openstack-k8s-operators/openstack-tests-list'
